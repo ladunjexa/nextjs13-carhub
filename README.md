@@ -1,8 +1,8 @@
 <a name="readme-top"></a>
 <div align="center">
 
-  ![Project Banner](readme_assets/readme_banner.png#gh-dark-mode-only)
-  ![Project Banner](readme_assets/readme_banner-light.png#gh-light-mode-only)
+  ![Project Banner](@readme_assets/readme_banner.png#gh-dark-mode-only)
+  ![Project Banner](@readme_assets/readme_banner-light.png#gh-light-mode-only)
 
   <h1>CarHub</h1>
   
