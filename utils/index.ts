@@ -39,7 +39,7 @@ export const generateCarImageUrl = (car: CarProps, angle?: string) => {
 
   const { make, year, model } = car;
 
-  url.searchParams.append("customer", process.env.IMGIN_API_CUSTOMER as string);
+  url.searchParams.append("customer", `${process.env.IMGIN_API_CUSTOMER}`);
   url.searchParams.append("make", make);
   url.searchParams.append("modelFamily", model.split(" ")[0]);
   url.searchParams.append("zoomType", "fullscreen");
